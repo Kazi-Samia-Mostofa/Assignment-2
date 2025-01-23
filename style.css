@@ -1,69 +1,97 @@
-.nav{
-    position: absolute;
-    width: 600px;
-    height: 102px;
-    left: 0;
-    top: 0;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+/* Universal Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+}
+
+/* Shared Style  ,,,,ekhane right and left e margin thik kore hy*/
+header,
+.curricu,
+.s-container , .foot {
+  margin: 0px auto;
+  max-width: 1280px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+.mo {
+    display: none;
+  }
+  
+  .logo {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10;
-    padding: 20px 0px 20px 0px;
-
-}
-
-.schl{
-    positi.frame{
+  }
   
-position: static;
-width: 1500px;
-height: 62px;
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 186;
-padding: 0px
-
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 0px;    
-}on: static;
-width: 202px;
-height: 62px;
-display: flex;
-order: 0;
-flex-grow: 0;
-margin: 0px 186px;
-}
-.cont{
-    position: static;
-width: 76px;
-height: 30px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-gap: 10;
-padding: 10px;
-}
-nav a{
+  .logo h2 {
+    color: rgb(19, 19, 19);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .laptop {
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
-}
-.frame{
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .laptop ul {
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .laptop li {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .btn {
+    border-radius: 12px;
+    background: rgb(254, 161, 1);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border: 2px solid rgb(254, 163, 1);
+  }
+  
+  .navvv a {
+    transition: text-decoration 1s;
+  }
+  
+  .navvv a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .btn:hover {
+    background-color: white;
+    color: rgb(254, 163, 1);
+  }
 
-.mid{
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-}
+  .btn:hover {
+    background-color: white;
+    color: rgb(254, 163, 1);
+  }
+  
+  .h a {
+    color: rgb(254, 163, 1);
+    font-weight: 700;
+  }
