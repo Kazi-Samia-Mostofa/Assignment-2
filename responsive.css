@@ -109,3 +109,15 @@
         footer {
           padding: 100px 0;
         }
+        .arrow-container {
+            display: none;
+          }
+        
+          .s-container h2{
+            font-size: 30px;
+          }
+        
+          .curricu> h2{
+            font-size: 30px;
+          }
+        }
