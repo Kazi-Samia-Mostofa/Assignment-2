@@ -95,3 +95,63 @@ img {
     color: rgb(254, 163, 1);
     font-weight: 700;
   }
+  .a a {
+    color: rgb(1, 182, 253);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .faci a {
+    color: rgb(5, 222, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .adm a {
+    color: rgb(93, 98, 249);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  /* Hero Section */
+  
+  .hero-s {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .hero-s h2 {
+    font-size: 56px;
+    font-weight: 700;
+  }
+  
+  
+  
+  .y-span {
+    color: rgb(1, 173, 253);
+  }
+  .b-span {
+    color: rgb(255, 163, 1);
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .enroll {
+    padding: 10px 47px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: 2px solid black;
+  }
